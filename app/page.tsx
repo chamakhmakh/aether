@@ -1,5 +1,6 @@
 import Discovery from "./sections/Discovery";
 import Hero from "./sections/Hero";
+import Interaction from "./sections/Interaction";
 import NavBar from "./sections/NavBar";
 import StatusBar from "./sections/StatusBar";
 
@@ -11,6 +12,7 @@ const page = () => {
       <main>
         <Hero />
         <Discovery />
+        <Interaction />
       </main>
     </div>
   );

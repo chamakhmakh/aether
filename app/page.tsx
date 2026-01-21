@@ -1,6 +1,7 @@
 import Discovery from "./sections/Discovery";
 import Hero from "./sections/Hero";
 import Interaction from "./sections/Interaction";
+import Manifesto from "./sections/Manifesto";
 import NavBar from "./sections/NavBar";
 import StatusBar from "./sections/StatusBar";
 
@@ -13,6 +14,7 @@ const page = () => {
         <Hero />
         <Discovery />
         <Interaction />
+        <Manifesto />
       </main>
     </div>
   );

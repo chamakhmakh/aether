@@ -1,4 +1,5 @@
 import Discovery from "./sections/Discovery";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Interaction from "./sections/Interaction";
 import Manifesto from "./sections/Manifesto";
@@ -18,6 +19,7 @@ const page = () => {
         <Manifesto />
         <Works />
       </main>
+      <Footer />
     </div>
   );
 };

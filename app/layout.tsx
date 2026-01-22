@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono, Manrope } from "next/font/google";
 import "./globals.css";
+import SmoothScroll from "./providers/SmoothScroll";
 
 const inter = Inter({
   variable: "--font-inter-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${manrope.variable} ${jetBrainsMono.variable}`}
       >
+        <SmoothScroll />
         {children}
       </body>
     </html>

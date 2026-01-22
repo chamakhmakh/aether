@@ -4,6 +4,7 @@ import Interaction from "./sections/Interaction";
 import Manifesto from "./sections/Manifesto";
 import NavBar from "./sections/NavBar";
 import StatusBar from "./sections/StatusBar";
+import Works from "./sections/Works";
 
 const page = () => {
   return (
@@ -15,6 +16,7 @@ const page = () => {
         <Discovery />
         <Interaction />
         <Manifesto />
+        <Works />
       </main>
     </div>
   );
